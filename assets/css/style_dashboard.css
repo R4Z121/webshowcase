@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Capriola";
+    background-color: #423F3E;
+    background-image: url("../img/projects-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    min-height: calc(100vh - 86px - 36.25px);
+}
+section{
+    width: 48%;
+    color: white;
+    margin-bottom: 20px;
+}
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #232323;
+}
+.greeting{
+    width: 100%;
+    padding: 25px;
+}
+.greeting h4{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.profile .profile-detail{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+     
+    width: 100%;
+    justify-content: space-around;
+}
+.profile-detail .picture{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+div.profile-detail div.profile-data{
+    width: 320px;
+    padding: 10px;
+}
+.profile-detail .picture img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+section.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #232323;
+}
+.activities .activities-list{
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+}
+.activities-list hr{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.activities-list li{
+    list-style: none;
+    border: 2px solid;
+    margin-bottom: 20px;
+    background-color: #423F3E;
+}
+.activities-list li a:hover{
+    background-color: white;
+    color: black;
+}
+.activities-list li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+.activities-list li a i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.activities-list h3, .profile-detail h3{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.profile-detail h3{
+    margin-bottom: 30px;
+}
+footer{
+    background-color: rgba(34,34,34,0.7);
+    color:white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+@media(max-width: 1000px){
+    section{
+        width: 600px;
+    }
+}
